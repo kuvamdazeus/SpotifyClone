@@ -1,0 +1,62 @@
+.Footer {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    background-color: #282828;
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 20px;
+    display:flex;
+    color: white;
+}
+
+.current_playing_image {
+    margin-right: 15px;
+}
+
+.current_playing_name {
+    margin-top: 10px;
+    font-size: 15px;
+    flex: 0.25;
+}
+
+.current_track_name:hover {
+    text-decoration: underline;
+}
+
+.current_name_and_icon {
+    display: flex;
+}
+
+.favourite_icon {
+    margin-left: 15px;
+}
+
+.current_artists {
+    color: gray;
+    font-size: 13px;
+}
+
+.current_artists:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.current_icons {
+    flex: 0.75;
+    text-align: center;
+}
+
+.icons {
+    color: rgb(155, 155, 155);
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.icons:hover {
+    color: white;
+}
+
+.playback_icons {
+    color: rgb(155, 155, 155);
+}

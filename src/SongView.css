@@ -1,0 +1,12 @@
+.Songs {
+    /* background-color: rgba(15, 20, 15, 0.815); */
+    background-color: rgba(0, 0, 0, 0.199);
+    margin: 0;
+    width: 100%;
+    height: 837px;
+    overflow-y: scroll;
+}
+
+.Songs::-webkit-scrollbar {
+    display: none;
+}

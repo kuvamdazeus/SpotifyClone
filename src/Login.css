@@ -1,0 +1,28 @@
+.Login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.Login > img {
+    width: 60%;
+}
+
+.login_button {
+    background-color: #147a38;
+    border-radius: 100px;
+    padding: 20px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.login_button:hover {
+    background-color: #1db954;
+}
+
+.Login > h5 {
+    color: white;
+}

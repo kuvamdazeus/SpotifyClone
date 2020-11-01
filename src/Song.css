@@ -1,0 +1,28 @@
+.Song {
+    padding-left: 30px;
+    color: darkgray;
+    height: 70px;
+    width: 100%;
+    transition: 150ms background-color;
+    display: flex;
+    max-width: 139vh;
+    padding-top: 10px;
+}
+
+.Song:hover {
+    background-color: rgb(50, 53, 50);
+    color: white;
+}
+
+.song_artists {
+    text-align: right;
+    width: 100%;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.song_text {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 1000px;
+}
